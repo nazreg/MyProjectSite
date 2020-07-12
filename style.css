@@ -1,0 +1,46 @@
+#destinations_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardDivClass {
+  margin: 1px;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+#destination_form {
+  display: flex;
+  flex-direction: column;
+}
+/* edit and remove button */
+.rb {
+  float: right;
+  background-color: rgb(202, 62, 62);
+  border: rgb(202, 62, 62);
+}
+.rb:hover {
+  background-color: rgb(214, 16, 16);
+}
+.eb {
+  background-color: rgb(238, 201, 80);
+  border: rgb(238, 201, 80);
+  color: black;
+}
+.eb:hover {
+  background-color: rgb(247, 220, 68);
+  color: black;
+}
+
+/* top section */
+.topSec {
+  background-color: rgb(215, 211, 211);
+  padding: 40px;
+}
+
+/* main section */
+.mainSec {
+  margin-top: 20px;
+}
