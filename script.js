@@ -32,6 +32,7 @@ let card = (e) => {
 
   // img info
   newImg.setAttribute("class", "card-img-top");
+  newImg.setAttribute("alt", `${name} photo`);
   newImg.setAttribute(
     "src",
     photo ||
